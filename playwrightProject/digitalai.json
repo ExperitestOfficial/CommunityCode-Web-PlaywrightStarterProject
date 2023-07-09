@@ -1,0 +1,15 @@
+{
+  "browsers": [{
+    "browser": "chromium",
+    "imageVersion": "1.35.0"
+  },
+  {
+    "browser": "firefox",
+    "imageVersion": "1.35.0"
+  },
+  {
+    "browser": "webkit",
+    "imageVersion": "1.35.0"
+  }
+]
+}
