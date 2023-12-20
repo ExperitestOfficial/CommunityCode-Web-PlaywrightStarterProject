@@ -23,7 +23,7 @@ To run the test in this project, chose one of the following options:
 2. **CLI Configuration:**\
    Set up authentication by updating the following parameters in [credentials.json](playwrightProject/credentials.json):
     * cloud.url - Url for the cloud the test would run in. For example, https://company.experitest.com/
-    * cloud.accessKey -  Personal authentication. See [Obtaining Access Key](https://docs.experitest.com/pages/viewpage.action?pageId=52593435) to learn how to obtain an access key.
+    * cloud.accessKey -  Personal authentication. See [Obtaining Access Key](https://docs.digital.ai/bundle/TE/page/obtaining_access_key.html) to learn how to obtain an access key.
 
 3. **Running Playwright Tests:**\
    Run the following command:
@@ -34,16 +34,16 @@ To run the test in this project, chose one of the following options:
 
 ### Using API:
 Compress the entire [playwrightProject](playwrightProject) folder content.\
-Run POST API request by following the [documentation](https://docs.experitest.com/display/TE/Playwright).
+Run POST API request by following the [documentation](https://docs.digital.ai/bundle/TE/page/playwright.html).
 
 ## Test Configuration
 To update the test's browsers and playwright versions edit the following file [digitalai.json](playwrightProject/digitalai.json).
 
 
 ## Documentation
-To find out more about running tests on Playwright, visit our online
-[Playwright_using_API](https://docs.experitest.com/display/TE/Playwright) and
-[Playwright_using_Dai-CT_CLI](https://docs.experitest.com/pages/viewpage.action?spaceKey=TE&title=Dai-CT+Execution+CLI).
+To find out more about running tests on Playwright, see 
+[Playwright](hhttps://docs.digital.ai/bundle/TE/page/playwright.html) and
+[Dai-CT Execution Command Line Interface](https://docs.digital.ai/bundle/TE/page/dai-ct_execution_command_line_interface.html).
 
 ## Support
 If you encounter an issue that is not covered here or in our online documentation, contact us at [support@digital.ai](mailto:support@digital.ai).
